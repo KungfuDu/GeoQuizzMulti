@@ -1,5 +1,5 @@
 {
-  "name": "alexa_evolutionx",
+  "name": "GeoQuizzMulti",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freemancontingent/Alexa_EvolutionX.git"
+    "url": "git+https://github.com/KungfuDu/GeoQuizzMulti.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/freemancontingent/Alexa_EvolutionX/issues"
+    "url": "https://github.com/KungfuDu/GeoQuizzMulti/issues"
   },
-  "homepage": "https://github.com/freemancontingent/Alexa_EvolutionX#readme",
+  "homepage": "https://github.com/KungfuDu/GeoQuizzMulti#readme",
   "dependencies": {
     "moment": "^2.18.1",
     "raven": "^2.1.2",

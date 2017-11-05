@@ -1,7 +1,6 @@
 
-//
 var Response = require('./lib/responseHelper')
-var EvoEngine = require('./lib/gameEngine')
+var GameEngine = require('./lib/gameEngine')
 var Handler = require('./lib/intentsHandler')
 
 
@@ -53,11 +52,8 @@ function onIntent(intentRequest, session, callback) {
 
   var intent = intentRequest.intent
   var intentName = intentRequest.intent.name;
-  if (intentName == "DayBriefing") {
-    Handler.handleDayBriefing(intent, session, callback)
-  } else if (intentName == "MonthBriefing") {
-    Handler.handleMonthBriefing(intent, session, callback)
-  } else if (intentName == "AMAZON.YesIntent") {
+å
+  if (intentName == "AMAZON.YesIntent") {
 
   } else if (intentName == "PrevIntent") {
 
@@ -68,7 +64,7 @@ function onIntent(intentRequest, session, callback) {
   } else if (intentName == "AMAZON.HelpIntent") {
     Handler.handleHelpIntent(intent, session, callback)
   } else if (intentName == "AMAZON.StopIntent") {
-    callback([], Response.buildSpeechletResponse('Evolution X', 'OK, bye bye.', '', true))
+    callback([], Response.buildSpeechletResponse('Geo Quizz', 'OK, bye bye.', '', true))
   } else {
     throw "Invalid intent :" + intentName
   }
@@ -82,9 +78,9 @@ function onLaunch(launchRequest, session, callback) {
 }
 
 function getWelcomeResponse(callback) {
-  let speechOutput = "Welcome to Evolution X, powered by E VO lab"
+  let speechOutput = "Welcome to GeoQuizz, powered by Kungfu"
   let reprompt = "What are you looking for ?"
-  let header = "EVOLUTION X"
+  let header = "Geo Quizz"
   let shouldEndSession = false
   let sessionAttributes = {
     "speechOutput": speechOutput,
