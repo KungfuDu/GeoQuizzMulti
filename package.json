@@ -1,0 +1,30 @@
+{
+  "name": "alexa_evolutionx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/ --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freemancontingent/Alexa_EvolutionX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freemancontingent/Alexa_EvolutionX/issues"
+  },
+  "homepage": "https://github.com/freemancontingent/Alexa_EvolutionX#readme",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "raven": "^2.1.2",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "aws-lambda-mock-context": "^3.1.1",
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
