@@ -52,8 +52,9 @@ function onIntent(intentRequest, session, callback) {
 
   var intent = intentRequest.intent
   var intentName = intentRequest.intent.name;
-å
-  if (intentName == "AMAZON.YesIntent") {
+  if (intentName == "CreateGame") {
+    Handler.handleCreateGameIntent(intent, session, callback)
+  } else if (intentName == "AMAZON.YesIntent") {
 
   } else if (intentName == "PrevIntent") {
 
