@@ -5,7 +5,7 @@ var Handler = require('./lib/intentsHandler')
 
 
 exports.handler = function (event, context) {
-  Handler.init(event.session).then(function () {
+  Handler.init(event.session.attributes).then(function () {
 
     if (event.session.new) {
       onSessionStarted({ requestId: event.request.requestId }, event.session);
@@ -24,7 +24,6 @@ exports.handler = function (event, context) {
             context.succeed(buildResponse(sessionAttributes, speechletResponse));
           });
       } catch (err) {
-        Raven.captureException(err);
         errorReply(err,function callback(sessionAttributes, speechletResponse) {
           context.succeed(buildResponse(sessionAttributes, speechletResponse));
         });
@@ -36,7 +35,6 @@ exports.handler = function (event, context) {
     }
   }).catch(function (err) {
     console.error(err)
-    Raven.captureException(err);
     errorReply(err,function callback(sessionAttributes, speechletResponse) {
       context.succeed(buildResponse(sessionAttributes, speechletResponse))
     });
@@ -52,15 +50,18 @@ function onIntent(intentRequest, session, callback) {
 
   var intent = intentRequest.intent
   var intentName = intentRequest.intent.name;
-  if (intentName == "CreateGame") {
+  if (intentName == "StartGameIntent") {
     Handler.handleCreateGameIntent(intent, session, callback)
+  } else if (intentName == "AnswerIntent") {
+    Handler.handleAnswerIntent(intent.slots.Continent.value, intent, session, callback)
   } else if (intentName == "AMAZON.YesIntent") {
-
+    Handler.handleAnswerIntent('yes', intent, session, callback)
   } else if (intentName == "PrevIntent") {
 
   } else if (intentName == "NextIntent") {
 
   } else if (intentName == "AMAZON.NoIntent") {
+    Handler.handleAnswerIntent('no', intent, session, callback)
 
   } else if (intentName == "AMAZON.HelpIntent") {
     Handler.handleHelpIntent(intent, session, callback)

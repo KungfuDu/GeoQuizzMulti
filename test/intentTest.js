@@ -48,70 +48,48 @@ describe('When Starting a Session', function () {
     })
 })
 
-
-describe('When asking for a DailyBreifing', function () {
-    var speechResponse = null,
-        speechError = null
-
-    describe('The response is structurally correct for a today daily briefing', function () {
-
-        before(function (done) {
-            initIntent("./intentJsons/daybriefingNoDate.json",done)
-        })
-        dailyBriefingCheck()
-    })
-
-    describe('The response is structurally correct for a the 22nd of September daily briefing', function () {
-        before(function (done) {
-            initIntent("./intentJsons/daybriefingDate.json",done)
-        })
-        dailyBriefingCheck()
-        it('should have 22 sept title', function () {
-            expect(speechResponse.response.card.title).to.equal('Daily Briefing : 22/09/2017')
-        })
-    })
-
-    function initIntent(name, done) {
-        ctx = {}
-        ctx = context()
-
-        //This fires the event as if a Lambda call was being sent in
-        let dailybriefJson = require(name)
-        lambdaToTest.handler(dailybriefJson, ctx)
-
-        //Captures the response and/or errors
-        ctx.Promise
-            .then(resp => { speechResponse = resp; done(); })
-            .catch(err => { speechError = err; done(); })
-    }
-
-
-describe('When asking for a Monthly briefing', function () {
+describe('TEST INTENT', function () {
     var speechResponse = null
     var speechError = null
-
-    describe('The response is structurally correct for a monthly briefing', function () {
-
+    describe('When Creating a new game', function () {
         before(function (done) {
-            initIntent("./intentJsons/monthBriefing.json", done)
+            initIntent("./intentJsons/createGameIntent.json", done)
         })
-        monthBriefingCheck()
+        describe('The response is structurally correct for a game creation', function () {
+
+            it('should have response', function () {
+                expect(speechResponse).to.not.be.null
+            })
+
+        })
     })
+
+
+    describe('When Replying No to a question', function () {
+        before(function (done) {
+            initIntent("./intentJsons/answerNoIntent.json", done)
+        })
+        describe('The response is structurally correct for a game creation', function () {
+
+            it('should have response', function () {
+                expect(speechResponse).to.not.be.null
+            })
+
+        })
+    })
+
 
     function initIntent(name, done) {
         ctx = {}
         ctx = context()
 
         //This fires the event as if a Lambda call was being sent in
-        let dailybriefJson = require(name)
-        lambdaToTest.handler(dailybriefJson, ctx)
+        let json = require(name)
+        lambdaToTest.handler(json, ctx)
 
         //Captures the response and/or errors
         ctx.Promise
             .then(resp => { speechResponse = resp; done(); })
             .catch(err => { speechError = err; done(); })
     }
-
 })
-
-

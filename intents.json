@@ -1,0 +1,41 @@
+{
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "PlayerCount",
+                    "type": "AMAZON.NUMBER"
+                },
+                {
+                    "name": "LifeCount",
+                    "type": "AMAZON.NUMBER"
+                }
+            ],
+            "intent": "StartGame"
+        },
+        {
+            "intent": "Answer",
+            "slots": [
+                {
+                    "name": "Continent",
+                    "type": "ContinentName"
+                }
+            ]
+        },
+        {
+            "intent": "AMAZON.YesIntent"
+        },
+        {
+            "intent": "AMAZON.NoIntent"
+        },
+        {
+            "intent": "AMAZON.HelpIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        },
+        {
+            "intent": "AMAZON.CancelIntent"
+        }
+    ]
+}

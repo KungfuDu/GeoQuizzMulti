@@ -1,0 +1,49 @@
+{
+    "session": {
+        "new": true,
+        "sessionId": "SessionId.5b040169-ef3a-4801-8c89-eb922cfbf195",
+        "application": {
+            "applicationId": "amzn1.ask.skill.fb1fb4b6-154d-4df2-9fb6-f5506f332f98"
+        },
+        "attributes": {},
+        "user": {
+            "userId": "amzn1.ask.account.AFRO7LUVKGRGQ6IU2UPWYNBSYZLA34TAU3SODZID2VMY332AZ5COKPN2CGUXMBXTWOSUSFOLP36HFTRTMFMMPFOTX6UY3DLI2CW5RIS3FV4Q5NXR2ARWWGEEQQ2R4TBGSJBX4BDXUKQP4RC2XDOD7GG4IHX7UVFIZYZPTIQNZ64BVU3BLWQBJIO74D7WSIEX7FPDM75FROLFH5Q"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "EdwRequestId.24e777b1-df72-404d-ac22-5f190f6f92fa",
+        "intent": {
+            "name": "StartGameIntent",
+            "slots": {
+                "LifeCount": {
+                    "name": "LifeCount",
+                    "value": "2"
+                },
+                "PlayerCount": {
+                    "name": "PlayerCount",
+                    "value": "3"
+                }
+            }
+        },
+        "locale": "en-US",
+        "timestamp": "2018-01-06T01:05:05Z"
+    },
+    "context": {
+        "AudioPlayer": {
+            "playerActivity": "IDLE"
+        },
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.fb1fb4b6-154d-4df2-9fb6-f5506f332f98"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AFRO7LUVKGRGQ6IU2UPWYNBSYZLA34TAU3SODZID2VMY332AZ5COKPN2CGUXMBXTWOSUSFOLP36HFTRTMFMMPFOTX6UY3DLI2CW5RIS3FV4Q5NXR2ARWWGEEQQ2R4TBGSJBX4BDXUKQP4RC2XDOD7GG4IHX7UVFIZYZPTIQNZ64BVU3BLWQBJIO74D7WSIEX7FPDM75FROLFH5Q"
+            },
+            "device": {
+                "supportedInterfaces": {}
+            }
+        }
+    },
+    "version": "1.0"
+}

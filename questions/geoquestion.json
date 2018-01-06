@@ -372,7 +372,7 @@
 "population": "628",
 "areaInSqKm": "14.0",
 "countryCode": "CC",
-"countryName": "Cocos [Keeling] Islands",
+"countryName": "Cocos Islands",
 "continentName": "Asia",
 "currencyCode": "AUD"
         },
@@ -630,15 +630,6 @@
         },
         {
 "continent": "AF",
-"capital": "Laâyoune / El Aaiún",
-"population": "273008",
-"areaInSqKm": "266000.0",
-"countryCode": "EH",
-"continentName": "Africa",
-"currencyCode": "MAD"
-        },
-        {
-"continent": "AF",
 "capital": "Asmara",
 "population": "5792984",
 "areaInSqKm": "121320.0",
@@ -861,15 +852,6 @@
 "countryName": "Greece",
 "continentName": "Europe",
 "currencyCode": "EUR"
-        },
-        {
-"continent": "AN",
-"capital": "Grytviken",
-"population": "30",
-"areaInSqKm": "3903.0",
-"countryCode": "GS",
-"continentName": "Antarctica",
-"currencyCode": "GBP"
         },
         {
 "continent": "NA",
@@ -1170,6 +1152,7 @@
 "capital": "Pyongyang",
 "population": "22912177",
 "areaInSqKm": "120540.0",
+"countryName": "North Korea",
 "countryCode": "KP",
 "continentName": "Asia",
 "currencyCode": "KPW"
@@ -1180,6 +1163,7 @@
 "population": "48422644",
 "areaInSqKm": "98480.0",
 "countryCode": "KR",
+"countryName": "South Korea",
 "continentName": "Asia",
 "currencyCode": "KRW"
         },
@@ -1439,15 +1423,6 @@
 "countryName": "Macao",
 "continentName": "Asia",
 "currencyCode": "MOP"
-        },
-        {
-"continent": "OC",
-"capital": "Saipan",
-"population": "53883",
-"areaInSqKm": "477.0",
-"countryCode": "MP",
-"continentName": "Oceania",
-"currencyCode": "USD"
         },
         {
 "continent": "NA",
@@ -2021,15 +1996,6 @@
         },
         {
 "continent": "AF",
-"capital": "Juba",
-"population": "8260490",
-"areaInSqKm": "644329.0",
-"countryCode": "SS",
-"continentName": "Africa",
-"currencyCode": "SSP"
-        },
-        {
-"continent": "AF",
 "capital": "São Tomé",
 "population": "175808",
 "areaInSqKm": "1001.0",
@@ -2096,15 +2062,6 @@
 "currencyCode": "XAF"
         },
         {
-"continent": "AN",
-"capital": "Port-aux-Français",
-"population": "140",
-"areaInSqKm": "7829.0",
-"countryCode": "TF",
-"continentName": "Antarctica",
-"currencyCode": "EUR"
-        },
-        {
 "continent": "AF",
 "capital": "Lomé",
 "population": "6587239",
@@ -2143,15 +2100,6 @@
 "countryName": "Tokelau",
 "continentName": "Oceania",
 "currencyCode": "NZD"
-        },
-        {
-"continent": "OC",
-"capital": "Dili",
-"population": "1154625",
-"areaInSqKm": "15007.0",
-"countryCode": "TL",
-"continentName": "Oceania",
-"currencyCode": "USD"
         },
         {
 "continent": "AS",
@@ -2405,15 +2353,6 @@
 "countryName": "Mayotte",
 "continentName": "Africa",
 "currencyCode": "EUR"
-        },
-        {
-"continent": "AF",
-"capital": "Pretoria",
-"population": "49000000",
-"areaInSqKm": "1219912.0",
-"countryCode": "ZA",
-"continentName": "Africa",
-"currencyCode": "ZAR"
         },
         {
 "continent": "AF",

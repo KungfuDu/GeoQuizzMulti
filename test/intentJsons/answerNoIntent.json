@@ -1,0 +1,1022 @@
+{
+    "session": {
+        "new": false,
+        "sessionId": "SessionId.01acb9db-7cd7-4ef8-9c21-f8d8aa46acd8",
+        "application": {
+            "applicationId": "amzn1.ask.skill.fb1fb4b6-154d-4df2-9fb6-f5506f332f98"
+        },
+        "attributes": {
+            "questionsAvailable": [
+                {
+                    "question": "Is Syria bigger than Belize?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Paraguay?",
+                    "response": "South America"
+                },
+                {
+                    "question": "Is Liechtenstein bigger than Botswana?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Belize?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Azerbaijan more populated than São Tomé and Príncipe?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Nigeria?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Kosovo more populated than Slovenia?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Argentina bigger than Antarctica?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Slovenia more populated than Cayman Islands?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Switzerland bigger than New Caledonia?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Guam more populated than Malta?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Saint Barthélemy?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Benin more populated than Sint Maarten?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Iraq?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "In which continent is United Kingdom?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "In which continent is Algeria?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Spain bigger than Suriname?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Turkmenistan more populated than Ecuador?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Comoros more populated than undefined?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Wallis and Futuna bigger than Hungary?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Slovakia bigger than Switzerland?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Burundi?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Papua New Guinea more populated than Nauru?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Tokelau more populated than Rwanda?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Cameroon bigger than Luxembourg?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Indonesia more populated than Lebanon?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Luxembourg more populated than Singapore?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Saint Lucia?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Mexico more populated than Tanzania?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Cambodia more populated than Svalbard and Jan Mayen?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Norfolk Island?",
+                    "response": "Oceania"
+                },
+                {
+                    "question": "In which continent is Cyprus?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "Is Bulgaria more populated than Canada?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Mozambique more populated than Cambodia?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Trinidad and Tobago bigger than undefined?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Lesotho?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Aruba more populated than Slovakia?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Equatorial Guinea more populated than United Arab Emirates?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Tajikistan?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "Is Martinique more populated than Isle of Man?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Latvia bigger than El Salvador?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Qatar bigger than Turkey?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Singapore?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "Is Åland bigger than Djibouti?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Dominican Republic bigger than Poland?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Andorra more populated than Sweden?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Guatemala bigger than Malaysia?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is French Polynesia?",
+                    "response": "Oceania"
+                },
+                {
+                    "question": "Is Malta bigger than Guadeloupe?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Vietnam?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "Is Antarctica more populated than Mayotte?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Japan bigger than Cocos [Keeling] Islands?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Sint Maarten?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Vanuatu more populated than Albania?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Albania more populated than Burundi?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Somalia?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Seychelles bigger than Grenada?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Tuvalu more populated than Lithuania?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Italy?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "Is Poland more populated than United Kingdom?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Palestine bigger than China?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Bahamas more populated than Mongolia?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Grenada bigger than Panama?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Netherlands more populated than Costa Rica?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Bahrain?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "Is Kuwait more populated than Nepal?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Estonia more populated than Bahrain?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Morocco?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Namibia more populated than Laos?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Mauritania?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Zimbabwe more populated than Pitcairn Islands?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Ivory Coast bigger than Australia?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Central African Republic?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Oman bigger than Jersey?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Brunei?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "Is Togo bigger than Madagascar?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Guinea more populated than United States?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Heard Island and McDonald Islands more populated than Mauritania?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is India more populated than Tonga?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Nauru?",
+                    "response": "Oceania"
+                },
+                {
+                    "question": "Is Cayman Islands more populated than undefined?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Iceland?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "Is Anguilla more populated than Guinea-Bissau?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Ukraine?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "Is Venezuela more populated than Guernsey?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Sweden bigger than Zambia?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Saint Helena bigger than Comoros?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Hungary more populated than Dominica?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Rwanda more populated than Latvia?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Ethiopia more populated than Malawi?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Cocos [Keeling] Islands more populated than Tokelau?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is British Virgin Islands?",
+                    "response": "North America"
+                },
+                {
+                    "question": "In which continent is Lebanon?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "In which continent is Eritrea?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "In which continent is France?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "Is San Marino more populated than Zimbabwe?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is United States bigger than Brunei?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is China?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "In which continent is Pitcairn Islands?",
+                    "response": "Oceania"
+                },
+                {
+                    "question": "Is Saint Martin bigger than Cape Verde?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Montserrat more populated than Samoa?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Cook Islands more populated than Finland?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is U.S. Virgin Islands more populated than Bosnia and Herzegovina?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Isle of Man bigger than Brazil?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Guernsey bigger than Aruba?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Zambia more populated than Bulgaria?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is New Caledonia?",
+                    "response": "Oceania"
+                },
+                {
+                    "question": "Is Solomon Islands bigger than Ghana?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Antigua and Barbuda more populated than Ethiopia?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Moldova more populated than Oman?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Falkland Islands?",
+                    "response": "South America"
+                },
+                {
+                    "question": "Is El Salvador bigger than Algeria?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Tanzania bigger than Norfolk Island?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Saint Vincent and the Grenadines bigger than Palestine?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Jamaica?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Costa Rica bigger than Italy?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Bouvet Island bigger than Micronesia?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Samoa?",
+                    "response": "Oceania"
+                },
+                {
+                    "question": "Is Bangladesh more populated than Democratic Republic of the Congo?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Mauritius more populated than Kyrgyzstan?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Afghanistan bigger than Philippines?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Macao more populated than Eritrea?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Kyrgyzstan more populated than Serbia?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Dominica?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Haiti bigger than Cook Islands?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Gambia?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Liberia more populated than Georgia?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Kenya bigger than Honduras?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Uzbekistan bigger than Greece?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Kazakhstan?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "In which continent is Nicaragua?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Bhutan more populated than Belgium?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Bosnia and Herzegovina bigger than Yemen?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is United Arab Emirates?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "Is Svalbard and Jan Mayen bigger than Gabon?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Democratic Republic of the Congo bigger than French Guiana?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Uganda?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Serbia bigger than Taiwan?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Taiwan more populated than Libya?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Sudan?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Maldives more populated than Ukraine?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Vatican City more populated than Chad?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Greece?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "Is Iran more populated than Republic of the Congo?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Croatia more populated than Réunion?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Malawi bigger than Swaziland?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Chad bigger than U.S. Minor Outlying Islands?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is American Samoa bigger than Japan?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Georgia more populated than Myanmar [Burma]?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Mongolia bigger than Wallis and Futuna?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Mali bigger than Liberia?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Puerto Rico?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Lithuania bigger than Kenya?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Brazil bigger than Bouvet Island?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Macedonia bigger than San Marino?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Thailand more populated than Jordan?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Austria bigger than Vatican City?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Mayotte more populated than Niue?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Ecuador more populated than Jamaica?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Curacao more populated than Austria?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Suriname?",
+                    "response": "South America"
+                },
+                {
+                    "question": "Is Swaziland bigger than Indonesia?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Burkina Faso?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "In which continent is Botswana?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Gabon more populated than Tunisia?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Djibouti?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Saint Pierre and Miquelon bigger than Sierra Leone?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is U.S. Minor Outlying Islands bigger than Kazakhstan?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Tonga bigger than Lesotho?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Canada more populated than Macao?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Jersey?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "In which continent is Kiribati?",
+                    "response": "Oceania"
+                },
+                {
+                    "question": "Is Montenegro bigger than India?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Czechia bigger than Azerbaijan?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Barbados?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Sierra Leone more populated than French Polynesia?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Cuba?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Tunisia bigger than Romania?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Russia?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "Is Micronesia bigger than Paraguay?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Laos?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "In which continent is Uruguay?",
+                    "response": "South America"
+                },
+                {
+                    "question": "Is Chile bigger than Curacao?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Pakistan?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "In which continent is French Guiana?",
+                    "response": "South America"
+                },
+                {
+                    "question": "In which continent is Saint Kitts and Nevis?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Bermuda more populated than Equatorial Guinea?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Philippines?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "Is Palau bigger than Åland?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Bonaire bigger than Saint Pierre and Miquelon?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Saudi Arabia bigger than Portugal?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Cape Verde bigger than Christmas Island?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Sri Lanka?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "Is Ireland bigger than Vanuatu?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Colombia more populated than Hong Kong?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Ghana?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "In which continent is Nepal?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "In which continent is Guinea-Bissau?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Monaco bigger than Ireland?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is British Indian Ocean Territory more populated than Maldives?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Denmark bigger than Saint Barthélemy?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is New Zealand more populated than Falkland Islands?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Malaysia bigger than Croatia?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Armenia more populated than Trinidad and Tobago?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Christmas Island bigger than Bangladesh?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Gibraltar bigger than Saint Helena?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Senegal bigger than Bermuda?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Greenland more populated than Egypt?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Fiji bigger than Israel?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Niue more populated than Cuba?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Libya more populated than Sudan?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Réunion more populated than Czechia?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Faroe Islands more populated than Iceland?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Bolivia bigger than Cyprus?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Honduras bigger than Thailand?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Hong Kong more populated than Bahamas?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Turkey bigger than Bonaire?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Panama bigger than Saudi Arabia?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Marshall Islands bigger than Sri Lanka?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Jordan?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "Is Australia more populated than Spain?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Niger?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Egypt bigger than Saint Vincent and the Grenadines?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Angola?",
+                    "response": "Africa"
+                },
+                {
+                    "question": "Is Israel bigger than undefined?",
+                    "response": "no"
+                },
+                {
+                    "question": "In which continent is Yemen?",
+                    "response": "Asia"
+                },
+                {
+                    "question": "Is Guadeloupe bigger than Uzbekistan?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Belarus bigger than Somalia?",
+                    "response": "no"
+                },
+                {
+                    "question": "Is Madagascar bigger than Monaco?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Germany?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "Is Peru more populated than Kuwait?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Belgium?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "Is Romania more populated than Uruguay?",
+                    "response": "yes"
+                },
+                {
+                    "question": "Is Republic of the Congo bigger than Montserrat?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Turks and Caicos Islands?",
+                    "response": "North America"
+                },
+                {
+                    "question": "Is Myanmar [Burma] more populated than Netherlands?",
+                    "response": "yes"
+                },
+                {
+                    "question": "In which continent is Portugal?",
+                    "response": "Europe"
+                },
+                {
+                    "question": "In which continent is São Tomé and Príncipe?",
+                    "response": "Africa"
+                }
+            ],
+            "currentPlayer": {
+                "name": "Player 2",
+                "life": "3",
+                "status": 1
+            },
+            "players": [
+                {
+                    "name": "Player 1",
+                    "life": "3",
+                    "status": 1
+                },
+                {
+                    "name": "Player 2",
+                    "life": "3",
+                    "status": 1
+                }
+            ],
+            "questionsAnswered": [
+                {
+                    "question": "Is Guyana more populated than British Indian Ocean Territory?",
+                    "response": "yes"
+                }
+            ],
+            "currentQuestion": {
+                "question": "Is Norway bigger than France?",
+                "response": "no"
+            }
+        },
+        "user": {
+            "userId": "amzn1.ask.account.AFRO7LUVKGRGQ6IU2UPWYNBSYZLA34TAU3SODZID2VMY332AZ5COKPN2CGUXMBXTWOSUSFOLP36HFTRTMFMMPFOTX6UY3DLI2CW5RIS3FV4Q5NXR2ARWWGEEQQ2R4TBGSJBX4BDXUKQP4RC2XDOD7GG4IHX7UVFIZYZPTIQNZ64BVU3BLWQBJIO74D7WSIEX7FPDM75FROLFH5Q"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "EdwRequestId.c224c43e-cbe4-4dfd-bb56-020eb2199cc4",
+        "intent": {
+            "name": "AMAZON.NoIntent",
+            "slots": {}
+        },
+        "locale": "en-US",
+        "timestamp": "2018-01-06T01:09:16Z"
+    },
+    "context": {
+        "AudioPlayer": {
+            "playerActivity": "IDLE"
+        },
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.fb1fb4b6-154d-4df2-9fb6-f5506f332f98"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AFRO7LUVKGRGQ6IU2UPWYNBSYZLA34TAU3SODZID2VMY332AZ5COKPN2CGUXMBXTWOSUSFOLP36HFTRTMFMMPFOTX6UY3DLI2CW5RIS3FV4Q5NXR2ARWWGEEQQ2R4TBGSJBX4BDXUKQP4RC2XDOD7GG4IHX7UVFIZYZPTIQNZ64BVU3BLWQBJIO74D7WSIEX7FPDM75FROLFH5Q"
+            },
+            "device": {
+                "supportedInterfaces": {}
+            }
+        }
+    },
+    "version": "1.0"
+}
